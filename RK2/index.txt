@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang ="en" dir ="ltr">
+<head>
+	<meta charset="utf-8">
+	<link href="style.css" rel="stylesheet">
+	<title> ИУ5-55Б Кожуро Б.Е. РК2</title>
+</head>
+<body>
+	<br>
+	<table class="table_class" cellpadding="10">
+		<caption> Таблица класса ОС </caption>
+		<tr>
+			<th></th>
+			<th>название</th>
+			<th>версия</th>
+			<th>размер</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>Windows</td>
+			<td>10</td>
+			<td>16гб</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Linux</td>
+			<td>Ubuntu 16.9</td>
+			<td>8гб</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>MacOS</td>
+			<td>Catalina 10.15</td>
+			<td>23гб</td>
+		</tr>
+	</table>
+	<p>Список класса Компьютер</p>
+	<ol type ="I" start = "1">
+		<li>Asus ROG</li>
+		<li>Macbook pro 2020</li>
+		<li>Lenovo Yoga 15"</li>
+	</ol>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset "UTF-8">
+	<title>Кожуро Б.Е. ИУ5-55Б</title>
+</head>
+<body>
+	<form method = "get">
+		<input name = "name" type ="text" placeholder="Ваше имя" align ="left"
+		<fieldset>
+		<legend> Варианты выбора </legend>
+			<p> Какая музыка Вам нравится </p>
+				<input id="box1" type="checkbox">
+				<label for="box1">Классика</label><br>
+				<input id="box2" type="checkbox">
+				<label for="box2">Рок</label><br>
+				<input id="box3" type="checkbox">
+				<label for="box3">Поп</label>
+			<br>
+			<p> Как часто вы слушаете музыку в день? </p>
+				<input id="radio1" name="freq" type="radio">
+				<label for="radio1">0-1</label>
+				<input id="radio2" name="freq" type="radio">
+				<label for="radio2">2-4</label>
+				<input id="radio3" name="freq" type="radio">
+				<label for="radio3">4+</label>
+			<br>
+
+			<label for="sel">Лучшие группы:</label>
+			<br>
+			<select id="sel" size="5">
+				<option selected value="1">Mindless self indulgence</option>
+				<option selected value="2">Megadeth</option>
+				<option selected value="3">Balthazar</option>
+				<option selected value="4">Miraccle Of Sound</option>
+			</select>
+			<br>
+
+			<label for="mul_sel"> Какие аудиосистемы вы предпочитаете?</label>
+			 <select id="mul_sel">
+			<option selected value="multiple_1">наушники</option>
+			<option selected value="multiple_2">колонки</option>
+			<option selected value="multiple_3">"Домашний кинотеатр"</option>
+			<option selected value="multiple_4">виброколонки</option>
+			<br><br><br><br><br><br>
+
+			<p>Сколько стоит ваша аудиосистема мечты?</p>
+			<br>			
+			<label for="dl">Сколько стоит ваша аудиосистема мечты?</label>
+			<input type="text" name="list1" list="comp_combobox_datalist" id="dl"/>
+			<datalist id="comp_combobox_datalist">
+				<option selected value="0-10 тыс.">1</option>
+				<option selected value="10-50 тыс.">2</option>
+				<option selected value="50+ тыс.">3</option>
+			</datalist>
+			<br>
+		</fieldset>
+		
+		<fieldset>
+			<legend>Что-то добавите?</legend>			
+			<textarea rows="12" cols="40"></textarea>
+		</fieldset>
+		<br>
+
+		<input type="image" src="okbutton.png" size alt="ОК">
+		<input type="submit" value="Отправить введенные данные">
+		<input type="reset" value="Удалить все значения">
+	</form>
+</body>
+</html>				
+
+
+		
