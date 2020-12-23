@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset "UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Кожуро Б.Е. ИУ5-55Б</title>
+
+</head>
+<body>
+<ol>
+			{% for Song in Songs %}
+				<li><a href="{%url 'detail' Song.id%}">{{Song.name}}</a></li>
+			{%endfor%}
+		</ol>
+</body>

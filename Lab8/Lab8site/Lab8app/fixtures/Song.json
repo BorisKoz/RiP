@@ -1,0 +1,38 @@
+[
+	{
+	 "model":"Lab8app.Song",
+	 "pk":1,
+	 "fields":{
+		"name":"Valhalla Calling",
+		"duration":"3:44",
+		"img":"VC.jpg"
+		}
+	},
+	{
+	 "model":"Lab8app.Song",
+	 "pk":2,
+	 "fields":{
+		"name":"Beyond these walls",
+		"duration":"4:12",
+		"img":"BTW.jpg"
+		}
+	},
+	{
+	 "model":"Lab8app.Song",
+	 "pk":3,
+	 "fields":{
+		"name":"The tale of Cú Chulainn",
+		"duration":"8:44",
+		"img":"TOCC.jpg"
+		}
+	},
+	{
+	 "model":"Lab8app.Song",
+	 "pk":4,
+	 "fields":{
+		"name":"City of night",
+		"duration":"4:00",
+		"img":"CN.jpg"
+		}
+	}
+]
