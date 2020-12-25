@@ -22,3 +22,4 @@ urlpatterns = [
     path('', include('Lab8app.urls')),
 
 ]
+
